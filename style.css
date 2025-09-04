@@ -1,3 +1,27 @@
 body{
     background-color: blueviolet;
+    
+    color: white;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
 }
+
+button {
+    background-color: #64A712;
+    color: white;
+    
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
+
+
